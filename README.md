@@ -22,7 +22,7 @@ Face Recognition
 
 如果剛剛在webcamera安裝過opencv就不用在安裝
 
-1.sudo python capture-positives.py(拍下自己的臉做為訓練資料 ps.越多越好)
+1.sudo python capture-positives.py(拍下自己的臉做為訓練資料 ps.越多越好，可在./training/positive中確認)
 
 2.python train.py(開始訓練)
 
