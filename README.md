@@ -1,6 +1,6 @@
 # Remote-Desktop-Vacuum-Cleaner
 
-webcamera
+Webcamera
 
 Install required package and Python module
 
@@ -18,7 +18,7 @@ sudo modprobe bcm2835-v4l2)
 
 參考資料:https://github.com/raspberrypi-tw/camera-python-opencv
 
-face
+Face Recognition
 
 如果剛剛在webcamera安裝過opencv就不用在安裝
 
