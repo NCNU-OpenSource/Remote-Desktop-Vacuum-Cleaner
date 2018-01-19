@@ -9,15 +9,14 @@
 
 ## Handmade Vacuum Cleaner
 ## Remote Control Server
-## Camera Live Stream Server
-
 ## Install required package and Python module
 
     $ sudo apt-get update
 
     $ sudo apt-get install -y festival python-dev python-opencv python-pip x11vnc liblivemedia-dev libv4l-dev cmake python-matplotlib vlc
 
-    $ sudo pip install request flask numpy
+    $ sudo pip install request flask numpy    
+## Camera Live Stream Server
 
 使用Flask框架架設網頁，做出Camera object傳回目前Pi camera拍攝之照片，之後每秒呼叫camera 更新 <img> tag的img，達到影像串流的效果
 
@@ -27,11 +26,9 @@
 
 ## Face Recognition
 
-如果剛剛在Camera Live Stream Server安裝過opencv就不用在安裝
-
     1. $ sudo python capture-positives.py
        
-    2. $ python train.py
+    2. $ python train.py
         
     3 .$ sudo python box.py
         
