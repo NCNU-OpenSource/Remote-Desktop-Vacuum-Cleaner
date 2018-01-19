@@ -11,7 +11,7 @@
 ## Remote Control Server
 ## Camera Live Stream Server
 
-##Install required package and Python module
+## Install required package and Python module
 
     $ sudo apt-get update
 
@@ -31,7 +31,7 @@
 
     1. $ sudo python capture-positives.py
        
-    2. $ python train.py
+    2. $ python train.py
         
     3 .$ sudo python box.py
         
