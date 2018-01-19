@@ -21,7 +21,7 @@
     1. $ sh camera.sh or sudo modprobe bcm2835-v4l2
     2. $ sudo python app-camera.py     
 
-1.打開pi相機權限
+1.打開pi相機權限(每次開機都要執行，於是寫一個sh方便使用)
 
 2.就可以在port80看到camera的影像串流
 
