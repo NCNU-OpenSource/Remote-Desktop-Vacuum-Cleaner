@@ -8,7 +8,6 @@
 **3. 透過網頁介面原地遙控吸塵器，不僅方便也可以享受操作的樂趣**<br>
 
 ## Handmade Vacuum Cleaner
-### 1. 
 ## Remote Control Server
 ## Camera Live Stream Server
 ## How To
