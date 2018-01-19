@@ -25,9 +25,10 @@
 ## Face Recognition
 
     1. $ sudo python capture-positives.py
+    
     1. $ sudo python capture-positives.py 
     
-    3 .$ sudo python box.py
+    3. $ sudo python box.py
         
 1.拍下自己的臉做為訓練資料 ps.越多越好，可在./training/positive中確認
 
