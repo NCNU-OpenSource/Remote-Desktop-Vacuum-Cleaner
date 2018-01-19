@@ -20,14 +20,13 @@
 #### ***一路高電位驅動繼電器***
 ![](./繼電器.png)<br>
 
-1. IN（控制端）：接樹莓派gpio腳位（pin 16）<br>
-2. VCC（電源）：接樹莓派gpio腳位輸入5v電源（pin 4）<br>
-3. GND（接地）：接樹莓派gpio腳位接地（pin 9）<br><br>
-4. NC（常閉端）：不接任何東西<br>
-5. COM（公共端）：接電池盒正極<br>
-6. NO（常開端）：接馬達正極<br>
-
-7. 電池盒負極：接馬達負極<br>
+1. IN（控制端）：接樹莓派gpio腳位（pin 16)
+2. VCC（電源）：接樹莓派gpio腳位輸入5v電源（pin 4)
+3. GND（接地）：接樹莓派gpio腳位接地（pin 9)
+4. NC（常閉端）：不接任何東西
+5. COM（公共端）：接電池盒正極
+6. NO（常開端）：接馬達正極
+7. 電池盒負極：接馬達負極
 
 ## Install required package and Python module
 
