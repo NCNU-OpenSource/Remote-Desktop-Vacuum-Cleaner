@@ -26,7 +26,7 @@
 
     1. $ sudo python capture-positives.py
     
-    2. $ sudo python capture-positives.py   
+    2. python train.py
     
     3 .$ sudo python box.py
         
