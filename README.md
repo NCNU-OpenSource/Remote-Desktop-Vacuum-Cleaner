@@ -13,7 +13,7 @@
 
 Install required package and Python module
 
-  $ sudo apt-get update
+    $ sudo apt-get update
 
 $ sudo apt-get install -y festival python-dev python-opencv python-pip x11vnc liblivemedia-dev libv4l-dev cmake python-matplotlib vlc
 
