@@ -34,7 +34,8 @@
 
     $ sudo apt-get update
     $ sudo apt-get install -y festival python-dev python-opencv python-pip x11vnc liblivemedia-dev libv4l-dev cmake python-matplotlib vlc
-    $ sudo pip install request flask numpy    
+    $ sudo pip install request flask numpy
+    $ sudo pip install tornado
 ## Camera Live Stream Server
 
 使用Flask框架架設網頁，做出Camera object傳回目前Pi camera拍攝之照片，之後每秒呼叫camera 更新 <img> tag的img，達到影像串流的效果
