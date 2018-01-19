@@ -27,8 +27,8 @@
 ## Face Recognition
 
     1. $ sudo python capture-positives.py
-       
-    1. $ python train.py
+      
+    1. $ sudo python capture-positives.py
         
     3 .$ sudo python box.py
         
