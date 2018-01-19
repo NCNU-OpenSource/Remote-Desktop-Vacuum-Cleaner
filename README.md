@@ -12,9 +12,7 @@
 ## Install required package and Python module
 
     $ sudo apt-get update
-
     $ sudo apt-get install -y festival python-dev python-opencv python-pip x11vnc liblivemedia-dev libv4l-dev cmake python-matplotlib vlc
-
     $ sudo pip install request flask numpy    
 ## Camera Live Stream Server
 
@@ -27,8 +25,7 @@
 ## Face Recognition
 
     1. $ sudo python capture-positives.py   
-    1. $ sudo python capture-positives.py
-        
+    2. $ python train.py   
     3 .$ sudo python box.py
         
 1.拍下自己的臉做為訓練資料 ps.越多越好，可在./training/positive中確認
