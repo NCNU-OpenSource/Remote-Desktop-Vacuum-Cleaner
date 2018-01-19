@@ -1,20 +1,18 @@
 # Remote Desktop Vacuum Cleaner
-##Introduction
-
+## Introduction
 遙控真空桌面吸塵器，是結合自製真空吸塵器與樹莓派自走車模組，利用樹莓派控制自走車及吸塵器開關，並在自走車上架設pi camera提供自走車視角畫面，讓遙控真空吸塵器即使不在使用者的視線範圍內，也可以透過網頁遙控介面，看見即時的影像去操控自走車，不僅可以吸塵，還可以享受操控遙控車的樂趣。
 
-##Features
-
+## Features
 **1. 可以吸小型、輕量垃圾，清潔環境**<br>
 **2. 可拆卸式吸塵器，垃圾若滿了可以拆開機身，將垃圾倒掉在做使用**<br>
 **3. 透過網頁介面原地遙控吸塵器，不僅方便也可以享受操作的樂趣**<br>
 
-##Handmade Vacuum Cleaner
-###1. 
-##Remote Control Server
-##Camera Live Stream Server
-##How To
-##Reference
+## Handmade Vacuum Cleaner
+### 1. 
+## Remote Control Server
+## Camera Live Stream Server
+## How To
+## Reference
 
 Webcamera
 
