@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+       html,body {height: 100%;}
+       .ctl-button {
+           margin: 10px;
+           height: 60px;
+           width: 60px;
+           text-align: center;
+       }
+
+       #onoff-btn {
+           color: white;
+           background-color: red;
+           width: 60px;
+           height: 20px;
+       }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+<body style='display: flex; justify-content: center; align-items: center; height: 700px; flex-direction: column;'>
+    <iframe id="mainframe" width="340px" height="320px"  src='http://192.168.43.37/' style='margin-bottom: 100px;'></iframe>
+    <div id='panel' style='display: flex; justify-content: center; align-items: center; flex-direction: row;'>
+         <div style='display: flex; justify-content: center; align-items: center; flex-direction: row; margin-right: 40px;'>
+            <button id='l-btn' class='ctl-button' value='l'>L</button>
+            <button id='r-btn' class='ctl-button'  value='r'>R</button>
+        </div>
+        <div style='display: flex; justify-content: center; align-items: center; flex-direction: column; margin-left: 40px;'>
+            <button id='onoff-btn' class='pow-button' value='ftog' style='margin-bottom: 30px;'>POWER</button>
+            <button id='back-btn' class='ctl-button' value='b'>GO</button>
+            <button id='go-btn' class='ctl-button' value='g'>BACK</button>
+        </div>
+    </div>
+
+    <script>
+    // 導入Raspberry Pi鏡頭畫面
+    function SetCwinHeight(){
+	    var iframeid = document.getElementById("mainframe"); //iframe id
+	    if (document.getElementById){   
+	        if (iframeid && !window.opera) {   
+			    if (iframeid.contentDocument && iframeid.contentDocument.body.offsetHeight) {   
+				    iframeid.height = iframeid.contentDocument.body.offsetHeight;
+		        }
+			    else if(iframeid.Document && iframeid.Document.body.scrollHeight) {   
+				    iframeid.height = iframeid.Document.body.scrollHeight;   
+			    }
+		    }
+	    }
+    };        
+                 
+    var wsObj = {
+        host: location.host,
+        socket: null,
+        // 開啟一個 WebSocket 連線，並設定相關動作
+        init: function(){
+            var url = "ws://" + wsObj.host + "/socket";
+            wsObj.socket = new WebSocket(url);
+            wsObj.socket.onmessage = function(event){
+                wsObj.showMsg(event.data);
+            },
+            wsObj.socket.onclose = function(event){
+                console.log("on close");
+            },
+            wsObj.socket.onerror = function(event){
+                console.log("on error");
+            }
+        },
+        // 發送訊息至 Server 端
+        sendMsg: function(cmd){
+                var msg_input = $("#msg-input")
+                wsObj.socket.send(cmd);
+                msg_input.val("").select();
+        },
+        // 顯示訊息
+        showMsg: function(message){
+            console.log(message);
+        }
+    };
+        
+    // 綁定吸塵器開關按鈕（#onoff-btn） click 時發送訊息（'ftog'）
+    $("#onoff-btn").click(function(){
+        wsObj.sendMsg($(this).val());
+    });
+
+    // 按下方向控制按鈕時傳送控制訊息（‘g’, 'b', 'l', 'r'），釋放按鈕傳送停止訊息（'s'）
+    $('.ctl-button').on('mousedown touchstart', function(e){
+        wsObj.sendMsg($(this).val());
+    }).bind('mouseup mouseleave touchend', function() {
+        wsObj.sendMsg('s');
+    });
+    wsObj.init();
+    </script>
+</body>
+</html>
