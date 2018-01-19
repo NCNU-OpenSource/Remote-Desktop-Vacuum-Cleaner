@@ -10,10 +10,6 @@
 ## Handmade Vacuum Cleaner
 ## Remote Control Server
 ## Camera Live Stream Server
-## How To
-## Reference
-
-Webcamera
 
 Install required package and Python module
 
@@ -29,9 +25,7 @@ $ sudo pip install request flask numpy
 
 2.sudo python app-camera.py(就可以在port80看到camera的影像串流)
 
-參考資料:https://github.com/raspberrypi-tw/camera-python-opencv
-
-Face Recognition
+## Face Recognition
 
 如果剛剛在webcamera安裝過opencv就不用在安裝
 
@@ -43,4 +37,13 @@ Face Recognition
 
 4.如果臉孔要被成功辨識，電腦的辨認信賴指數必須要低於2000，如果你的臉孔與訓練用影像相符，但是信賴指數過高，你可以在config.py （在POSITIVE_THRESHOLD設定中）調整門檻數值。如果還是不行，建議你可以試著放入更多訓練用影像，並再次執行訓練程式。這個專題使用的臉孔辨識演算法對光線很敏感，所以，試著將光線維持在訓練階段的亮度（或者也可以加入更多不同光線下的訓練影像）
 
-參考資料:https://github.com/tdicola/pi-facerec-box
+## How To
+
+## Reference
+https://github.com/raspberrypi-tw/camera-python-opencv
+
+https://github.com/tdicola/pi-facerec-box
+
+
+
+
