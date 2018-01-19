@@ -29,11 +29,11 @@ Install required package and Python module
 
 如果剛剛在Camera Live Stream Server安裝過opencv就不用在安裝
 
-        $ sudo python capture-positives.py
-       
-        $ python train.py
+    1. $ sudo python capture-positives.py
+       
+    2 .$ python train.py
         
-        $ sudo python box.py
+    3 .$ sudo python box.py
         
 1.拍下自己的臉做為訓練資料 ps.越多越好，可在./training/positive中確認
 
