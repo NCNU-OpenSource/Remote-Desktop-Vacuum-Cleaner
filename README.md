@@ -1,4 +1,5 @@
 # Remote Desktop Vacuum Cleaner
+![](./final.jpg)
 ## Introduction
 遙控真空桌面吸塵器，是結合自製真空吸塵器與樹莓派自走車模組，利用樹莓派控制自走車及吸塵器開關，並在自走車上架設pi camera提供自走車視角畫面，讓遙控真空吸塵器即使不在使用者的視線範圍內，也可以透過網頁遙控介面，看見即時的影像去操控自走車，不僅可以吸塵，還可以享受操控遙控車的樂趣。
 ## Features
@@ -8,6 +9,9 @@
 * 運用pi camera在網頁操控介面提供自走車視角的實時影像
 
 ## Handmade Vacuum Cleaner
+
+![](./cleaner-side1.jpg)
+![](./cleaner-side2.jpg)
 
 ### Materials
 ****
@@ -34,6 +38,11 @@
 參考網址：[如何使強大的吸塵器在家裡簡單](https://m.youtube.com/watch?v=mo_Vg3Iin9Q)
 
 ## Chassis
+
+![](./chasiss-front.jpg)
+![](./chasiss-side1.jpg)
+![](./chasiss-side2.jpg)
+![](./chasiss-top.jpg)
 
 ### Materials
 ****
@@ -194,4 +203,3 @@
 [pi-facerec-box](https://github.com/tdicola/pi-facerec-box)<br>
 [如何使強大的吸塵器在家裡簡單](https://m.youtube.com/watch?v=mo_Vg3Iin9Q)<br>
 [Raspberry Pi樹莓派遙控車–硬體篇](http://hophd.com/raspberry-pi-remote-car-hardware/)<br>
-
