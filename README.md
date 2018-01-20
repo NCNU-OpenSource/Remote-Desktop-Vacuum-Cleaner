@@ -104,6 +104,7 @@
 	# 風扇開關
 	gpio.output(16, False)
 <br>
+
 **控制訊號**
 
 	# 向後 command = 'b'
