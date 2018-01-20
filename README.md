@@ -183,10 +183,10 @@
 ![](./remote-page.png)
 
 ## Work Assignment
-* 彭泰淇 - 自走車製作、Remote Control Server、網頁遙控介面、結合自走車和真空吸塵器、電子材料購買
-* 游思愉 - 真空吸塵器製作、結合自走車和真空吸塵器、電子材料購買
+* 彭泰淇 - 自走車製作、真空吸塵器製作（一代、二代）、Remote Control Server、網頁遙控介面、結合自走車和真空吸塵器、電子材料購買
+* 游思愉 - 真空吸塵器製作（一代、二代、三代）、結合自走車和真空吸塵器、電子材料購買
 * 凌浩維 - Camera Live Stream Server、Face Recognition、網頁遙控介面、結合自走車和真空吸塵器
-* 楊舜丞 - 真空吸塵器製作、Camera Live Stream Server、結合自走車和真空吸塵器、真吸塵器材料購買
+* 楊舜丞 - 真空吸塵器製作（三代）、Camera Live Stream Server、結合自走車和真空吸塵器、真吸塵器材料購買
 * 范均泓 - 認識泰國妹子、介紹泰國妹子
 
 ## Reference
