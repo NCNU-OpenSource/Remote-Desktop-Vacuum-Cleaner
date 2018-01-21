@@ -192,7 +192,7 @@
 * 游思愉 - 真空吸塵器製作（一代、二代、三代）、結合自走車和真空吸塵器、電子材料購買
 * 凌浩維 - Camera Live Stream Server、Face Recognition、網頁遙控介面、結合自走車和真空吸塵器
 * 楊舜丞 - 真空吸塵器製作（三代）、Camera Live Stream Server、結合自走車和真空吸塵器、真空吸塵器材料購買
-* 范均泓 - 認識泰國妹子、介紹泰國妹子、電子材料購買、真空吸塵器材料購買
+* 范均泓 - 認識泰國妹子、介紹泰國妹子、電子材料購買、Face Recognition
 
 ## Cost
 pi camera：890元
