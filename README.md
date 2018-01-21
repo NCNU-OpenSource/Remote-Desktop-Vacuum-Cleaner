@@ -35,8 +35,6 @@
 * NO（常開端）：接馬達正極
 * 電池盒負極：接馬達負極
 
-參考網址：[如何使強大的吸塵器在家裡簡單](https://m.youtube.com/watch?v=mo_Vg3Iin9Q)
-
 ## Chassis
 
 ![](./chasiss-front.jpg)
@@ -84,8 +82,6 @@
 * IN2：OUT2控制訊號輸入，接樹莓派gpio腳位（pin 11）
 * IN3：OUT3控制訊號輸入，接樹莓派gpio腳位（pin 13）
 * IN4：OUT1控制訊號輸入，接樹莓派gpio腳位（pin 15）
-
-參考網址：[Raspberry Pi樹莓派遙控車–硬體篇](http://hophd.com/raspberry-pi-remote-car-hardware/)
 
 ## Install required package and Python module
 
