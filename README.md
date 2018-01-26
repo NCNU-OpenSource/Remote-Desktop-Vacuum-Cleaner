@@ -194,8 +194,10 @@
 * 楊舜丞 - 真空吸塵器製作（三代）、Camera Live Stream Server、結合自走車和真空吸塵器、真空吸塵器材料購買
 * 范均泓 - 認識泰國妹子、介紹泰國妹子、電子材料購買、Face Recognition
 
-## Cost
+## Costs
 pi camera：890元
+自走車等電子材料：950元
+真空吸塵器材料：500元
 
 ## Reference
 [camera-python-opencv](https://github.com/raspberrypi-tw/camera-python-opencv)<br>
